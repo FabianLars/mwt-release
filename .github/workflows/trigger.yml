@@ -16,6 +16,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
