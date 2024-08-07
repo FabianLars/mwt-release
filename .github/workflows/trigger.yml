@@ -21,6 +21,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: gh workflow run 111360066 -r main
+        run: gh workflow run 111360066 -r main -f releaseId=123
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
