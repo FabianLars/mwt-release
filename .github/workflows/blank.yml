@@ -5,6 +5,10 @@ name: blank
 # Controls when the workflow will run
 on:
   workflow_dispatch:
+    inputs:
+      releaseId:
+        description: 'ID of the `@tauri-apps/cli` release'
+        required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
